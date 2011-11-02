@@ -1,4 +1,22 @@
 DesktopBookmark::Application.routes.draw do
+  get "desktop_bookmark/init"
+
+  get "desktop_bookmark/index"
+
+  get "desktop_bookmark/show"
+
+  get "desktop_bookmark/new"
+
+  get "desktop_bookmark/edit"
+
+  get "desktop_bookmark/create"
+
+  get "desktop_bookmark/update"
+
+  get "desktop_bookmark/destroy"
+
+  get "desktop_bookmark/phoenix"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
