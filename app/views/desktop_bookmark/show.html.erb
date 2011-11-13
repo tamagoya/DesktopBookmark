@@ -1,2 +1,15 @@
-<h1>DesktopBookmark#show</h1>
-<p>Find me in app/views/desktop_bookmark/show.html.erb</p>
+
+<h1>Bookmark</h1>
+<% @task = Bookmark.find(:last) %>
+<p>
+TestTitle : <%= params[:mission_selection] %>
+</p>
+<p>
+Task Name : <%= @task.name %>
+</p>
+<p>
+Start Time : <%= @task.start_time %>
+</p>
+<p>
+End Time : <%= @task.end_time %>
+</p>
